@@ -1,0 +1,5 @@
+services:
+  filesorter:
+    build: .
+    volumes:
+      - .:/app
